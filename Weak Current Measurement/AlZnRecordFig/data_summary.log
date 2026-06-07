@@ -1,0 +1,856 @@
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.7.29)  7 JUN 2026 10:25
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Personal Profile/Profile/Ucas/t-Sophomore/S2/Comprehensive Physics Experiments/Weak Current Measurement/AlZnRecord/data_summary.tex"
+(c:/Personal Profile/Profile/Ucas/t-Sophomore/S2/Comprehensive Physics Experiments/Weak Current Measurement/AlZnRecord/data_summary.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-05-27>
+(c:/texlive/2024/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
+(c:/texlive/2024/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count190
+\c@section=\count191
+\c@subsection=\count192
+\c@subsubsection=\count193
+\c@paragraph=\count194
+\c@subparagraph=\count195
+\c@figure=\count196
+\c@table=\count197
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (c:/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (c:/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (c:/texlive/2024/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count198
+\Gm@cntv=\count199
+\c@Gm@tempcnt=\count266
+\Gm@bindingoffset=\dimen142
+\Gm@wd@mp=\dimen143
+\Gm@odd@mp=\dimen144
+\Gm@even@mp=\dimen145
+\Gm@layoutwidth=\dimen146
+\Gm@layoutheight=\dimen147
+\Gm@layouthoffset=\dimen148
+\Gm@layoutvoffset=\dimen149
+\Gm@dimlist=\toks18
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/05/23 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 106.
+ (c:/texlive/2024/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2022/09/22 v5.0n Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen150
+\Gin@req@width=\dimen151
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2024-04-26 v4.20 Multi-page Table package (DPC)
+\LTleft=\skip51
+\LTright=\skip52
+\LTpre=\skip53
+\LTpost=\skip54
+\LTchunksize=\count267
+\LTcapwidth=\dimen152
+\LT@head=\box52
+\LT@firsthead=\box53
+\LT@foot=\box54
+\LT@lastfoot=\box55
+\LT@gbox=\box56
+\LT@cols=\count268
+\LT@rows=\count269
+\c@LT@tables=\count270
+\c@LT@chunks=\count271
+\LT@p@ftn=\toks19
+) (c:/texlive/2024/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
+\col@sep=\dimen153
+\ar@mcellbox=\box57
+\extrarowheight=\dimen154
+\NC@list=\toks20
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box58
+) (c:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen155
+\captionmargin=\dimen156
+\caption@leftmargin=\dimen157
+\caption@rightmargin=\dimen158
+\caption@width=\dimen159
+\caption@indent=\dimen160
+\caption@parindent=\dimen161
+\caption@hangindent=\dimen162
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count272
+\c@continuedfloat=\count273
+Package caption Info: longtable package is loaded.
+ (c:/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)) (c:/texlive/2024/texmf-dist/tex/latex/ctex/ctex.sty (c:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2024-05-27 L3 programming layer (loader) 
+ (c:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
+\g__graphics_track_int=\count274
+\l__pdf_internal_box=\box59
+\g__pdf_backend_annotation_int=\count275
+\g__pdf_backend_link_int=\count276
+))
+Package: ctex 2022/07/14 v2.5.10 Chinese adapter in LaTeX (CTEX)
+ (c:/texlive/2024/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2022/07/14 v2.5.10 Document and package hooks (CTEX)
+) (c:/texlive/2024/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2022/07/14 v2.5.10 Patching commands (CTEX)
+) (c:/texlive/2024/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
+ (c:/texlive/2024/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TS1 on input line 47.
+))
+\l__ctex_tmp_int=\count277
+\l__ctex_tmp_box=\box60
+\l__ctex_tmp_dim=\dimen163
+\g__ctex_section_depth_int=\count278
+\g__ctex_font_size_int=\count279
+ (c:/texlive/2024/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2022/07/14 v2.5.10 Option configuration file (CTEX)
+) (c:/texlive/2024/texmf-dist/tex/latex/ctex/engine/ctex-engine-xetex.def
+File: ctex-engine-xetex.def 2022/07/14 v2.5.10 XeLaTeX adapter (CTEX)
+ (c:/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK.sty
+Package: xeCJK 2022/08/05 v3.9.1 Typesetting CJK scripts with XeLaTeX
+ (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
+Package: xtemplate 2024-05-08 L3 Experimental prototype document functions
+)
+\l__xeCJK_tmp_int=\count280
+\l__xeCJK_tmp_box=\box61
+\l__xeCJK_tmp_dim=\dimen164
+\l__xeCJK_tmp_skip=\skip57
+\g__xeCJK_space_factor_int=\count281
+\l__xeCJK_begin_int=\count282
+\l__xeCJK_end_int=\count283
+\c__xeCJK_CJK_class_int=\XeTeXcharclass1
+\c__xeCJK_FullLeft_class_int=\XeTeXcharclass2
+\c__xeCJK_FullRight_class_int=\XeTeXcharclass3
+\c__xeCJK_HalfLeft_class_int=\XeTeXcharclass4
+\c__xeCJK_HalfRight_class_int=\XeTeXcharclass5
+\c__xeCJK_NormalSpace_class_int=\XeTeXcharclass6
+\c__xeCJK_CM_class_int=\XeTeXcharclass7
+\c__xeCJK_HangulJamo_class_int=\XeTeXcharclass8
+\l__xeCJK_last_skip=\skip58
+\c__xeCJK_none_node=\count284
+\g__xeCJK_node_int=\count285
+\c__xeCJK_CJK_node_dim=\dimen165
+\c__xeCJK_CJK-space_node_dim=\dimen166
+\c__xeCJK_default_node_dim=\dimen167
+\c__xeCJK_CJK-widow_node_dim=\dimen168
+\c__xeCJK_normalspace_node_dim=\dimen169
+\c__xeCJK_default-space_node_skip=\skip59
+\l__xeCJK_ccglue_skip=\skip60
+\l__xeCJK_ecglue_skip=\skip61
+\l__xeCJK_punct_kern_skip=\skip62
+\l__xeCJK_indent_box=\box62
+\l__xeCJK_last_penalty_int=\count286
+\l__xeCJK_last_bound_dim=\dimen170
+\l__xeCJK_last_kern_dim=\dimen171
+\l__xeCJK_widow_penalty_int=\count287
+
+LaTeX template Info: Declaring template type 'xeCJK/punctuation' taking 0
+(template)           argument(s) on line 2396.
+
+\l__xeCJK_fixed_punct_width_dim=\dimen172
+\l__xeCJK_mixed_punct_width_dim=\dimen173
+\l__xeCJK_middle_punct_width_dim=\dimen174
+\l__xeCJK_fixed_margin_width_dim=\dimen175
+\l__xeCJK_mixed_margin_width_dim=\dimen176
+\l__xeCJK_middle_margin_width_dim=\dimen177
+\l__xeCJK_bound_punct_width_dim=\dimen178
+\l__xeCJK_bound_margin_width_dim=\dimen179
+\l__xeCJK_margin_minimum_dim=\dimen180
+\l__xeCJK_kerning_total_width_dim=\dimen181
+\l__xeCJK_same_align_margin_dim=\dimen182
+\l__xeCJK_different_align_margin_dim=\dimen183
+\l__xeCJK_kerning_margin_width_dim=\dimen184
+\l__xeCJK_kerning_margin_minimum_dim=\dimen185
+\l__xeCJK_bound_dim=\dimen186
+\l__xeCJK_reverse_bound_dim=\dimen187
+\l__xeCJK_margin_dim=\dimen188
+\l__xeCJK_minimum_bound_dim=\dimen189
+\l__xeCJK_kerning_margin_dim=\dimen190
+\g__xeCJK_family_int=\count288
+\l__xeCJK_fam_int=\count289
+\g__xeCJK_fam_allocation_int=\count290
+\l__xeCJK_verb_case_int=\count291
+\l__xeCJK_verb_exspace_skip=\skip63
+ (c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty (c:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-05-08 L3 Experimental document command parser
+)
+Package: fontspec 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+ (c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2024/05/11 v2.9e Font selection for XeLaTeX and LuaLaTeX
+\l__fontspec_script_int=\count292
+\l__fontspec_language_int=\count293
+\l__fontspec_strnum_int=\count294
+\l__fontspec_tmp_int=\count295
+\l__fontspec_tmpa_int=\count296
+\l__fontspec_tmpb_int=\count297
+\l__fontspec_tmpc_int=\count298
+\l__fontspec_em_int=\count299
+\l__fontspec_emdef_int=\count300
+\l__fontspec_strong_int=\count301
+\l__fontspec_strongdef_int=\count302
+\l__fontspec_tmpa_dim=\dimen191
+\l__fontspec_tmpb_dim=\dimen192
+\l__fontspec_tmpc_dim=\dimen193
+ (c:/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (c:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/texlive/2024/texmf-dist/tex/xelatex/xecjk/xeCJK.cfg
+File: xeCJK.cfg 2022/08/05 v3.9.1 Configuration file for xeCJK package
+))
+\ccwd=\dimen194
+\l__ctex_ccglue_skip=\skip64
+)
+\l__ctex_ziju_dim=\dimen195
+ (c:/texlive/2024/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2022/07/14 v3.0 Typesetting numbers with Chinese glyphs
+\l__zhnum_scale_int=\count303
+\l__zhnum_tmp_int=\count304
+ (c:/texlive/2024/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2022/07/14 v3.0 Chinese numerals with UTF8 encoding
+)) (c:/texlive/2024/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese.def
+File: ctex-scheme-chinese.def 2022/07/14 v2.5.10 Chinese scheme for generic (CTEX)
+ (c:/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2022/07/14 v2.5.10 Caption with encoding UTF-8 (CTEX)
+)) (c:/texlive/2024/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+) (c:/texlive/2024/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+File: ctex-fontset-windows.def 2022/07/14 v2.5.10 Windows fonts definition (CTEX)
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "KaiTi/B" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "SimHei/I" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Could not resolve font "SimSun/BI" (it probably doesn't
+(fontspec)             exist).
+
+
+Package fontspec Info: 
+(fontspec)             Font family 'SimSun(0)' created for font 'SimSun' with
+(fontspec)             options
+(fontspec)             [Script={CJK},BoldFont={SimHei},ItalicFont={KaiTi}].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"SimSun/OT:script=hani;language=dflt;"
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"SimHei/OT:script=hani;language=dflt;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"KaiTi/OT:script=hani;language=dflt;"
+
+)) (c:/texlive/2024/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2022/07/14 v2.5.10 Configuration file (CTEX)
+) (./data_summary.aux)
+\openout1 = `data_summary.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(45.52458pt, 523.24583pt, 45.52458pt)
+* v-part:(T,H,B)=(45.52458pt, 703.92082pt, 45.52458pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=523.24583pt
+* \textheight=703.92082pt
+* \oddsidemargin=-26.7454pt
+* \evensidemargin=-26.7454pt
+* \topmargin=-63.7454pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
+Package fontspec Info: 
+(fontspec)             Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup4
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 15.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 15.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 15.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 15.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 15.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 15.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 15.
+LaTeX Font Info:    Redeclaring math accent \check on input line 15.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 15.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 15.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \colon on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 15.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 15.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 15.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 15.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 15.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 15.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 15.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 15.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 15.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 15.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 15.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 15.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 15.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 15.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 15.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 19.
+File: figures/display_0001.jpg Graphic file (type bmp)
+<figures/display_0001.jpg>
+File: figures/display_0002.jpg Graphic file (type bmp)
+<figures/display_0002.jpg>
+File: figures/display_0003.jpg Graphic file (type bmp)
+<figures/display_0003.jpg>
+File: figures/display_0004.jpg Graphic file (type bmp)
+<figures/display_0004.jpg>
+File: figures/display_0005.jpg Graphic file (type bmp)
+<figures/display_0005.jpg>
+File: figures/display_0006.jpg Graphic file (type bmp)
+<figures/display_0006.jpg>
+File: figures/display_0007.jpg Graphic file (type bmp)
+<figures/display_0007.jpg>
+File: figures/display_0008.jpg Graphic file (type bmp)
+<figures/display_0008.jpg>
+File: figures/display_0009.jpg Graphic file (type bmp)
+<figures/display_0009.jpg>
+File: figures/display_0010.jpg Graphic file (type bmp)
+<figures/display_0010.jpg>
+File: figures/display_0011.jpg Graphic file (type bmp)
+<figures/display_0011.jpg>
+File: figures/display_0012.jpg Graphic file (type bmp)
+<figures/display_0012.jpg>
+File: figures/display_0013.jpg Graphic file (type bmp)
+<figures/display_0013.jpg>
+File: figures/display_0014.jpg Graphic file (type bmp)
+<figures/display_0014.jpg>
+File: figures/display_0015.jpg Graphic file (type bmp)
+<figures/display_0015.jpg>
+File: figures/display_0016.jpg Graphic file (type bmp)
+<figures/display_0016.jpg>
+File: figures/display_0017.jpg Graphic file (type bmp)
+<figures/display_0017.jpg>
+File: figures/display_0018.jpg Graphic file (type bmp)
+<figures/display_0018.jpg>
+File: figures/display_0019.jpg Graphic file (type bmp)
+<figures/display_0019.jpg>
+File: figures/display_0020.jpg Graphic file (type bmp)
+<figures/display_0020.jpg>
+File: figures/display_0021.jpg Graphic file (type bmp)
+<figures/display_0021.jpg>
+File: figures/display_0022.jpg Graphic file (type bmp)
+<figures/display_0022.jpg>
+File: figures/display_0023.jpg Graphic file (type bmp)
+<figures/display_0023.jpg>
+File: figures/display_0024.jpg Graphic file (type bmp)
+<figures/display_0024.jpg>
+File: figures/display_0025.jpg Graphic file (type bmp)
+<figures/display_0025.jpg>
+File: figures/display_0026.jpg Graphic file (type bmp)
+<figures/display_0026.jpg>
+File: figures/display_0027.jpg Graphic file (type bmp)
+<figures/display_0027.jpg>
+File: figures/display_0028.jpg Graphic file (type bmp)
+<figures/display_0028.jpg>
+File: figures/display_0029.jpg Graphic file (type bmp)
+<figures/display_0029.jpg>
+File: figures/display_0030.jpg Graphic file (type bmp)
+<figures/display_0030.jpg>
+File: figures/display_0031.jpg Graphic file (type bmp)
+<figures/display_0031.jpg>
+File: figures/display_0032.jpg Graphic file (type bmp)
+<figures/display_0032.jpg>
+File: figures/display_0033.jpg Graphic file (type bmp)
+<figures/display_0033.jpg>
+File: figures/display_0034.jpg Graphic file (type bmp)
+<figures/display_0034.jpg>
+File: figures/display_0035.jpg Graphic file (type bmp)
+<figures/display_0035.jpg>
+File: figures/display_0036.jpg Graphic file (type bmp)
+<figures/display_0036.jpg>
+File: figures/display_0037.jpg Graphic file (type bmp)
+<figures/display_0037.jpg>
+File: figures/display_0038.jpg Graphic file (type bmp)
+<figures/display_0038.jpg>
+File: figures/display_0039.jpg Graphic file (type bmp)
+<figures/display_0039.jpg>
+File: figures/display_0040.jpg Graphic file (type bmp)
+<figures/display_0040.jpg>
+File: figures/display_0041.jpg Graphic file (type bmp)
+<figures/display_0041.jpg>
+File: figures/display_0042.jpg Graphic file (type bmp)
+<figures/display_0042.jpg>
+File: figures/display_0043.jpg Graphic file (type bmp)
+<figures/display_0043.jpg>
+File: figures/display_0044.jpg Graphic file (type bmp)
+<figures/display_0044.jpg>
+File: figures/display_0045.jpg Graphic file (type bmp)
+<figures/display_0045.jpg>
+File: figures/display_0046.jpg Graphic file (type bmp)
+<figures/display_0046.jpg>
+File: figures/display_0047.jpg Graphic file (type bmp)
+<figures/display_0047.jpg>
+File: figures/display_0048.jpg Graphic file (type bmp)
+<figures/display_0048.jpg>
+File: figures/display_0049.jpg Graphic file (type bmp)
+<figures/display_0049.jpg>
+File: figures/display_0050.jpg Graphic file (type bmp)
+<figures/display_0050.jpg>
+File: figures/display_0051.jpg Graphic file (type bmp)
+<figures/display_0051.jpg>
+File: figures/display_0052.jpg Graphic file (type bmp)
+<figures/display_0052.jpg>
+File: figures/display_0053.jpg Graphic file (type bmp)
+<figures/display_0053.jpg>
+File: figures/display_0054.jpg Graphic file (type bmp)
+<figures/display_0054.jpg>
+File: figures/display_0055.jpg Graphic file (type bmp)
+<figures/display_0055.jpg>
+File: figures/display_0056.jpg Graphic file (type bmp)
+<figures/display_0056.jpg>
+File: figures/display_0057.jpg Graphic file (type bmp)
+<figures/display_0057.jpg>
+File: figures/display_0058.jpg Graphic file (type bmp)
+<figures/display_0058.jpg>
+File: figures/display_0059.jpg Graphic file (type bmp)
+<figures/display_0059.jpg>
+File: figures/display_0060.jpg Graphic file (type bmp)
+<figures/display_0060.jpg>
+File: figures/display_0061.jpg Graphic file (type bmp)
+<figures/display_0061.jpg>
+File: figures/display_0062.jpg Graphic file (type bmp)
+<figures/display_0062.jpg>
+File: figures/display_0063.jpg Graphic file (type bmp)
+<figures/display_0063.jpg>
+File: figures/display_0064.jpg Graphic file (type bmp)
+<figures/display_0064.jpg>
+File: figures/display_0065.jpg Graphic file (type bmp)
+<figures/display_0065.jpg>
+File: figures/display_0066.jpg Graphic file (type bmp)
+<figures/display_0066.jpg>
+File: figures/display_0067.jpg Graphic file (type bmp)
+<figures/display_0067.jpg>
+File: figures/display_0068.jpg Graphic file (type bmp)
+<figures/display_0068.jpg>
+File: figures/display_0069.jpg Graphic file (type bmp)
+<figures/display_0069.jpg>
+File: figures/display_0070.jpg Graphic file (type bmp)
+<figures/display_0070.jpg>
+File: figures/display_0071.jpg Graphic file (type bmp)
+<figures/display_0071.jpg>
+File: figures/display_0072.jpg Graphic file (type bmp)
+<figures/display_0072.jpg>
+File: figures/display_0073.jpg Graphic file (type bmp)
+<figures/display_0073.jpg>
+File: figures/display_0074.jpg Graphic file (type bmp)
+<figures/display_0074.jpg>
+File: figures/display_0075.jpg Graphic file (type bmp)
+<figures/display_0075.jpg>
+File: figures/display_0076.jpg Graphic file (type bmp)
+<figures/display_0076.jpg>
+File: figures/display_0077.jpg Graphic file (type bmp)
+<figures/display_0077.jpg>
+File: figures/display_0078.jpg Graphic file (type bmp)
+<figures/display_0078.jpg>
+File: figures/display_0079.jpg Graphic file (type bmp)
+<figures/display_0079.jpg>
+File: figures/display_0080.jpg Graphic file (type bmp)
+<figures/display_0080.jpg>
+File: figures/display_0081.jpg Graphic file (type bmp)
+<figures/display_0081.jpg>
+File: figures/display_0082.jpg Graphic file (type bmp)
+<figures/display_0082.jpg>
+File: figures/display_0083.jpg Graphic file (type bmp)
+<figures/display_0083.jpg>
+File: figures/display_0084.jpg Graphic file (type bmp)
+<figures/display_0084.jpg>
+File: figures/display_0085.jpg Graphic file (type bmp)
+<figures/display_0085.jpg>
+File: figures/display_0086.jpg Graphic file (type bmp)
+<figures/display_0086.jpg>
+File: figures/display_0087.jpg Graphic file (type bmp)
+<figures/display_0087.jpg>
+File: figures/display_0088.jpg Graphic file (type bmp)
+<figures/display_0088.jpg>
+File: figures/display_0089.jpg Graphic file (type bmp)
+<figures/display_0089.jpg>
+File: figures/display_0090.jpg Graphic file (type bmp)
+<figures/display_0090.jpg>
+File: figures/display_0091.jpg Graphic file (type bmp)
+<figures/display_0091.jpg>
+File: figures/display_0092.jpg Graphic file (type bmp)
+<figures/display_0092.jpg>
+File: figures/display_0093.jpg Graphic file (type bmp)
+<figures/display_0093.jpg>
+File: figures/display_0094.jpg Graphic file (type bmp)
+<figures/display_0094.jpg>
+File: figures/display_0095.jpg Graphic file (type bmp)
+<figures/display_0095.jpg>
+File: figures/display_0096.jpg Graphic file (type bmp)
+<figures/display_0096.jpg>
+File: figures/display_0097.jpg Graphic file (type bmp)
+<figures/display_0097.jpg>
+File: figures/display_0098.jpg Graphic file (type bmp)
+<figures/display_0098.jpg>
+File: figures/display_0099.jpg Graphic file (type bmp)
+<figures/display_0099.jpg>
+File: figures/display_0100.jpg Graphic file (type bmp)
+<figures/display_0100.jpg>
+File: figures/display_0101.jpg Graphic file (type bmp)
+<figures/display_0101.jpg>
+File: figures/display_0102.jpg Graphic file (type bmp)
+<figures/display_0102.jpg>
+File: figures/display_0103.jpg Graphic file (type bmp)
+<figures/display_0103.jpg>
+File: figures/display_0104.jpg Graphic file (type bmp)
+<figures/display_0104.jpg>
+File: figures/display_0105.jpg Graphic file (type bmp)
+<figures/display_0105.jpg>
+File: figures/display_0106.jpg Graphic file (type bmp)
+<figures/display_0106.jpg>
+File: figures/display_0107.jpg Graphic file (type bmp)
+<figures/display_0107.jpg>
+File: figures/display_0108.jpg Graphic file (type bmp)
+<figures/display_0108.jpg>
+File: figures/display_0109.jpg Graphic file (type bmp)
+<figures/display_0109.jpg>
+File: figures/display_0110.jpg Graphic file (type bmp)
+<figures/display_0110.jpg>
+File: figures/display_0111.jpg Graphic file (type bmp)
+<figures/display_0111.jpg>
+File: figures/display_0112.jpg Graphic file (type bmp)
+<figures/display_0112.jpg>
+File: figures/display_0113.jpg Graphic file (type bmp)
+<figures/display_0113.jpg>
+File: figures/display_0114.jpg Graphic file (type bmp)
+<figures/display_0114.jpg>
+File: figures/display_0115.jpg Graphic file (type bmp)
+<figures/display_0115.jpg>
+File: figures/display_0116.jpg Graphic file (type bmp)
+<figures/display_0116.jpg>
+File: figures/display_0117.jpg Graphic file (type bmp)
+<figures/display_0117.jpg>
+File: figures/display_0118.jpg Graphic file (type bmp)
+<figures/display_0118.jpg>
+File: figures/display_0119.jpg Graphic file (type bmp)
+<figures/display_0119.jpg>
+File: figures/display_0120.jpg Graphic file (type bmp)
+<figures/display_0120.jpg>
+File: figures/display_0121.jpg Graphic file (type bmp)
+<figures/display_0121.jpg>
+File: figures/display_0122.jpg Graphic file (type bmp)
+<figures/display_0122.jpg>
+File: figures/display_0123.jpg Graphic file (type bmp)
+<figures/display_0123.jpg>
+File: figures/display_0124.jpg Graphic file (type bmp)
+<figures/display_0124.jpg>
+File: figures/display_0125.jpg Graphic file (type bmp)
+<figures/display_0125.jpg>
+File: figures/display_0126.jpg Graphic file (type bmp)
+<figures/display_0126.jpg>
+File: figures/display_0127.jpg Graphic file (type bmp)
+<figures/display_0127.jpg>
+File: figures/display_0128.jpg Graphic file (type bmp)
+<figures/display_0128.jpg>
+File: figures/display_0129.jpg Graphic file (type bmp)
+<figures/display_0129.jpg>
+File: figures/display_0130.jpg Graphic file (type bmp)
+<figures/display_0130.jpg>
+File: figures/display_0131.jpg Graphic file (type bmp)
+<figures/display_0131.jpg>
+File: figures/display_0132.jpg Graphic file (type bmp)
+<figures/display_0132.jpg>
+File: figures/display_0133.jpg Graphic file (type bmp)
+<figures/display_0133.jpg>
+File: figures/display_0134.jpg Graphic file (type bmp)
+<figures/display_0134.jpg>
+File: figures/display_0135.jpg Graphic file (type bmp)
+<figures/display_0135.jpg>
+File: figures/display_0136.jpg Graphic file (type bmp)
+<figures/display_0136.jpg>
+File: figures/display_0137.jpg Graphic file (type bmp)
+<figures/display_0137.jpg>
+File: figures/display_0138.jpg Graphic file (type bmp)
+<figures/display_0138.jpg>
+File: figures/display_0139.jpg Graphic file (type bmp)
+<figures/display_0139.jpg>
+File: figures/display_0140.jpg Graphic file (type bmp)
+<figures/display_0140.jpg>
+File: figures/display_0141.jpg Graphic file (type bmp)
+<figures/display_0141.jpg>
+File: figures/display_0142.jpg Graphic file (type bmp)
+<figures/display_0142.jpg>
+File: figures/display_0143.jpg Graphic file (type bmp)
+<figures/display_0143.jpg>
+File: figures/display_0144.jpg Graphic file (type bmp)
+<figures/display_0144.jpg>
+File: figures/display_0145.jpg Graphic file (type bmp)
+<figures/display_0145.jpg>
+File: figures/display_0146.jpg Graphic file (type bmp)
+<figures/display_0146.jpg>
+File: figures/display_0147.jpg Graphic file (type bmp)
+<figures/display_0147.jpg>
+File: figures/display_0148.jpg Graphic file (type bmp)
+<figures/display_0148.jpg>
+File: figures/display_0149.jpg Graphic file (type bmp)
+<figures/display_0149.jpg>
+File: figures/display_0150.jpg Graphic file (type bmp)
+<figures/display_0150.jpg>
+File: figures/display_0151.jpg Graphic file (type bmp)
+<figures/display_0151.jpg>
+File: figures/display_0152.jpg Graphic file (type bmp)
+<figures/display_0152.jpg>
+File: figures/display_0153.jpg Graphic file (type bmp)
+<figures/display_0153.jpg>
+File: figures/display_0154.jpg Graphic file (type bmp)
+<figures/display_0154.jpg>
+File: figures/display_0155.jpg Graphic file (type bmp)
+<figures/display_0155.jpg>
+File: figures/display_0156.jpg Graphic file (type bmp)
+<figures/display_0156.jpg>
+File: figures/display_0157.jpg Graphic file (type bmp)
+<figures/display_0157.jpg>
+File: figures/display_0158.jpg Graphic file (type bmp)
+<figures/display_0158.jpg>
+File: figures/display_0159.jpg Graphic file (type bmp)
+<figures/display_0159.jpg>
+File: figures/display_0160.jpg Graphic file (type bmp)
+<figures/display_0160.jpg>
+File: figures/display_0161.jpg Graphic file (type bmp)
+<figures/display_0161.jpg>
+File: figures/display_0162.jpg Graphic file (type bmp)
+<figures/display_0162.jpg>
+File: figures/display_0163.jpg Graphic file (type bmp)
+<figures/display_0163.jpg>
+File: figures/display_0164.jpg Graphic file (type bmp)
+<figures/display_0164.jpg>
+File: figures/display_0165.jpg Graphic file (type bmp)
+<figures/display_0165.jpg>
+File: figures/display_0166.jpg Graphic file (type bmp)
+<figures/display_0166.jpg>
+File: figures/display_0167.jpg Graphic file (type bmp)
+<figures/display_0167.jpg>
+File: figures/display_0168.jpg Graphic file (type bmp)
+<figures/display_0168.jpg>
+File: figures/display_0169.jpg Graphic file (type bmp)
+<figures/display_0169.jpg>
+File: figures/display_0170.jpg Graphic file (type bmp)
+<figures/display_0170.jpg>
+File: figures/display_0171.jpg Graphic file (type bmp)
+<figures/display_0171.jpg>
+File: figures/display_0172.jpg Graphic file (type bmp)
+<figures/display_0172.jpg>
+File: figures/display_0173.jpg Graphic file (type bmp)
+<figures/display_0173.jpg>
+File: figures/display_0174.jpg Graphic file (type bmp)
+<figures/display_0174.jpg>
+File: figures/display_0175.jpg Graphic file (type bmp)
+<figures/display_0175.jpg>
+File: figures/display_0176.jpg Graphic file (type bmp)
+<figures/display_0176.jpg>
+File: figures/display_0177.jpg Graphic file (type bmp)
+<figures/display_0177.jpg>
+File: figures/display_0178.jpg Graphic file (type bmp)
+<figures/display_0178.jpg>
+File: figures/display_0179.jpg Graphic file (type bmp)
+<figures/display_0179.jpg>
+File: figures/display_0180.jpg Graphic file (type bmp)
+<figures/display_0180.jpg>
+File: figures/display_0181.jpg Graphic file (type bmp)
+<figures/display_0181.jpg>
+File: figures/display_0182.jpg Graphic file (type bmp)
+<figures/display_0182.jpg>
+File: figures/display_0183.jpg Graphic file (type bmp)
+<figures/display_0183.jpg>
+File: figures/display_0184.jpg Graphic file (type bmp)
+<figures/display_0184.jpg>
+File: figures/display_0185.jpg Graphic file (type bmp)
+<figures/display_0185.jpg>
+File: figures/display_0186.jpg Graphic file (type bmp)
+<figures/display_0186.jpg>
+File: figures/display_0187.jpg Graphic file (type bmp)
+<figures/display_0187.jpg>
+File: figures/display_0188.jpg Graphic file (type bmp)
+<figures/display_0188.jpg>
+File: figures/display_0189.jpg Graphic file (type bmp)
+<figures/display_0189.jpg>
+File: figures/display_0190.jpg Graphic file (type bmp)
+<figures/display_0190.jpg>
+File: figures/display_0191.jpg Graphic file (type bmp)
+<figures/display_0191.jpg>
+File: figures/display_0192.jpg Graphic file (type bmp)
+<figures/display_0192.jpg>
+File: figures/display_0193.jpg Graphic file (type bmp)
+<figures/display_0193.jpg>
+File: figures/display_0194.jpg Graphic file (type bmp)
+<figures/display_0194.jpg>
+File: figures/display_0195.jpg Graphic file (type bmp)
+<figures/display_0195.jpg>
+File: figures/display_0196.jpg Graphic file (type bmp)
+<figures/display_0196.jpg>
+File: figures/display_0197.jpg Graphic file (type bmp)
+<figures/display_0197.jpg>
+File: figures/display_0198.jpg Graphic file (type bmp)
+<figures/display_0198.jpg>
+File: figures/display_0199.jpg Graphic file (type bmp)
+<figures/display_0199.jpg>
+File: figures/display_0200.jpg Graphic file (type bmp)
+<figures/display_0200.jpg>
+File: figures/display_0201.jpg Graphic file (type bmp)
+<figures/display_0201.jpg>
+File: figures/display_0202.jpg Graphic file (type bmp)
+<figures/display_0202.jpg>
+File: figures/display_0203.jpg Graphic file (type bmp)
+<figures/display_0203.jpg>
+File: figures/display_0204.jpg Graphic file (type bmp)
+<figures/display_0204.jpg>
+File: figures/display_0205.jpg Graphic file (type bmp)
+<figures/display_0205.jpg>
+File: figures/display_0206.jpg Graphic file (type bmp)
+<figures/display_0206.jpg>
+File: figures/display_0207.jpg Graphic file (type bmp)
+<figures/display_0207.jpg>
+File: figures/display_0208.jpg Graphic file (type bmp)
+<figures/display_0208.jpg>
+File: figures/display_0209.jpg Graphic file (type bmp)
+<figures/display_0209.jpg>
+File: figures/display_0210.jpg Graphic file (type bmp)
+<figures/display_0210.jpg>
+File: figures/display_0211.jpg Graphic file (type bmp)
+<figures/display_0211.jpg>
+File: figures/display_0212.jpg Graphic file (type bmp)
+<figures/display_0212.jpg>
+File: figures/display_0213.jpg Graphic file (type bmp)
+<figures/display_0213.jpg>
+File: figures/display_0214.jpg Graphic file (type bmp)
+<figures/display_0214.jpg>
+File: figures/display_0215.jpg Graphic file (type bmp)
+<figures/display_0215.jpg>
+File: figures/display_0216.jpg Graphic file (type bmp)
+<figures/display_0216.jpg>
+File: figures/display_0217.jpg Graphic file (type bmp)
+<figures/display_0217.jpg>
+File: figures/display_0218.jpg Graphic file (type bmp)
+<figures/display_0218.jpg>
+[1
+
+] [2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25] [26] [27] [28] [29] [30] [31] [32] [33] [34] [35] [36]
+
+[37] (./data_summary.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2022/07/14>
+ ***********
+ ) 
+Here is how much of TeX's memory you used:
+ 10446 strings out of 474240
+ 283342 string characters out of 5745918
+ 2081560 words of memory out of 5000000
+ 32829 multiletter control sequences out of 15000+600000
+ 563539 words of font info for 72 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 93i,9n,111p,498b,374s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on data_summary.xdv (37 pages, 77908 bytes).
