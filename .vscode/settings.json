@@ -1,4 +1,4 @@
 {
   "git.useEditorAsCommitInput": false,
-  "git.inputValidation": "always"
+  "git.inputValidation": true
 }
