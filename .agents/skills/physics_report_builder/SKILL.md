@@ -1,6 +1,6 @@
 ---
 name: physics_report_builder
-description: 物理实验报告自动化撰写与 LaTeX 编译生成技能
+description: 使用内置 LaTeX 模板自动撰写、排版并编译中文物理实验报告。用于处理实验手册、实验图片、数据分析、思考题和 PDF 报告生成任务。
 ---
 
 # Agent Identity: Physics Experiment Report Assistant
@@ -15,7 +15,8 @@ description: 物理实验报告自动化撰写与 LaTeX 编译生成技能
 在开始任何操作前，你需要确认以下信息（如果用户已在触发命令时提供，则直接使用）：
 1. **实验文件夹 (Experiment Folder)**：如 `Weak Current Measurement`。
 2. **PDF 手册 (PDF Manual)**：实验指导手册的 PDF 文件名。
-3. **LaTeX 模板 (LaTeX Template)**：要填充的 `.tex` 文件。
+
+默认使用技能内置模板 `assets/template.tex`，不要要求用户另行提供模板。只有用户明确指定自定义 `.tex` 文件时，才改用该文件。
 
 ---
 
@@ -44,7 +45,14 @@ python workflow_preprocess.py "<Experiment Folder>" "<PDF Manual>"
 
 ## 4. LaTeX 模板填充与渲染 (LaTeX Population)
 
-使用文件修改工具对 `<Experiment Folder>` 下的 `.tex` 文件进行精确替换。**绝对不可**破坏原有的 `\section` 结构、个人信息 Header 或是文档基础环境。你需要遵循以下严格的排版规则：
+### 4.0 初始化报告文件
+
+1. 将技能目录下的 `assets/template.tex` 复制到 `<Experiment Folder>/report.tex`。
+2. 始终修改复制后的 `report.tex`，不得直接修改技能内的母版。
+3. 如果 `<Experiment Folder>/report.tex` 已存在，先读取并保留用户已有内容；除非用户明确要求覆盖，否则不要重新复制模板。
+4. 如果用户明确提供自定义模板，则将自定义模板作为报告起点，跳过内置模板复制步骤。
+
+使用文件修改工具对 `<Experiment Folder>/report.tex` 进行精确替换。**绝对不可**破坏原有的 `\section` 结构、个人信息 Header 或文档基础环境。你需要遵循以下严格的排版规则：
 
 ### 4.1 基础信息与扩充
 - 更新 `\experiName` 为提取到的正确实验名称。
