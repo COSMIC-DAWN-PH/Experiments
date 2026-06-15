@@ -1,0 +1,17 @@
+{
+  "label": "exp2",
+  "mode": "corrected",
+  "input": "analysis_output\\exp2_centroid_corrected_input.csv",
+  "dt_s": 0.3333333333,
+  "pixel_to_um": 0.1,
+  "minimum_track_frames": 20,
+  "selected_tracks": 187,
+  "selected_spots": 10101,
+  "fit_points": 10,
+  "fit_max_lag_s": 3.3333333329999997,
+  "slope_um2_s": 0.14299496957911476,
+  "intercept_um2": 0.194909760639026,
+  "diffusion_um2_s": 0.03574874239477869,
+  "r_squared": 0.9219390757243092,
+  "drift_method": "cumulative centroid displacement of tracks shared by adjacent frames"
+}

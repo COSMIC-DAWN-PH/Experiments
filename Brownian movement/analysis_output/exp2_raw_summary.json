@@ -1,0 +1,16 @@
+{
+  "label": "exp2",
+  "mode": "raw",
+  "input": "布朗运动实验数据\\2nd\\dsh副本.xlsx",
+  "dt_s": 0.3333333333,
+  "pixel_to_um": 0.1,
+  "minimum_track_frames": 20,
+  "selected_tracks": 187,
+  "selected_spots": 10101,
+  "fit_points": 10,
+  "fit_max_lag_s": 3.3333333329999997,
+  "slope_um2_s": 0.14069050470857308,
+  "intercept_um2": 0.2048006138044341,
+  "diffusion_um2_s": 0.03517262617714327,
+  "r_squared": 0.9099088180162079
+}

@@ -1,0 +1,16 @@
+{
+  "label": "exp1",
+  "mode": "raw",
+  "input": "布朗运动实验数据\\1st\\260601144344_allspots.csv",
+  "dt_s": 0.5,
+  "pixel_to_um": 0.1,
+  "minimum_track_frames": 20,
+  "selected_tracks": 39,
+  "selected_spots": 3154,
+  "fit_points": 10,
+  "fit_max_lag_s": 5.0,
+  "slope_um2_s": 1.1501967481038626,
+  "intercept_um2": -0.19846640490113213,
+  "diffusion_um2_s": 0.28754918702596566,
+  "r_squared": 0.9998897338849755
+}
