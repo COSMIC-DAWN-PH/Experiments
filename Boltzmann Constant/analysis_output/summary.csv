@@ -1,0 +1,12 @@
+quantity,value
+vi_mean_uv,273.45
+vi_std_uv,21.341678055444046
+calibration_points,95
+G_hz,172397166766.5398
+heated_temperature_K,330.34999999999997
+vj2_mV2,29.904112222222224
+vj_rms_mV,5.468465252904349
+resistor_ohm,10000.0
+k_measured,1.3127030283802354e-23
+k_relative_error,-0.0492130669125641
+r_eff_ohm,9507.869330874359
