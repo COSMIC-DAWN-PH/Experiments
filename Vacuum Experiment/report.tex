@@ -1,0 +1,318 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,left=2.0cm,right=2.0cm,top=2.3cm,bottom=2.3cm]{geometry}
+\usepackage{ctex}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{siunitx}
+\usepackage[inline]{enumitem}
+\usepackage[colorlinks=true,linkcolor=blue,urlcolor=blue]{hyperref}
+
+\setmainfont{Palatino Linotype}
+\setCJKmainfont{SimSun}[BoldFont=SimHei,ItalicFont=KaiTi]
+\setCJKsansfont{SimHei}
+\sisetup{separate-uncertainty=true}
+\graphicspath{{fig/}}
+\newcommand{\Ang}{\text{\AA}}
+
+\newcommand{\experiName}{真空制备与热蒸发镀膜}
+\newcommand{\supervisor}{郭沁林}
+\newcommand{\name}{邓思豪}
+\newcommand{\studentNum}{2023K8009909008}
+\newcommand{\class}{3}
+\newcommand{\group}{01}
+\newcommand{\seat}{5}
+\newcommand{\experimentDate}{2026年4月27日、5月11日}
+\newcommand{\room}{教一404}
+\newcommand{\others}{$\square$}
+
+\begin{document}
+
+\begin{center}
+    \LARGE\bfseries 《\,综\,合\,物\,理\,实\,验\,》\,实\,验\,报\,告
+\end{center}
+
+\begin{center}
+    \noindent 实验名称\underline{\makebox[23em][c]{\experiName}}
+    指导教师\underline{\makebox[7em][c]{\supervisor}}\\
+    姓名\underline{\makebox[6em][c]{\name}}
+    学号\underline{\makebox[11em][c]{\studentNum}}
+    分班分组及座号\underline{\makebox[6em][c]{\class-\group-\seat 号}}\\
+    实验日期\underline{\makebox[13em][c]{\experimentDate}}
+    实验地点\underline{\makebox[7em][c]{\room}}
+    调课/补课\underline{\makebox[3em][c]{\others\ 是}}\\[-0.2em]
+    成绩评定\underline{\hspace{5em}}\\[-0.3em]
+    \rule[8pt]{17cm}{0.2em}
+\end{center}
+
+\section{实验目的}
+
+\begin{enumerate}
+    \item 学习真空的基本概念，理解气体压强、分子数密度、温度和平均自由程之间的关系，掌握常用真空度单位及真空范围划分。
+    \item 认识真空腔体、真空阀门、法兰、密封件、观察窗、电极引出端、真空规、机械泵和涡轮分子泵等真空系统部件的结构与作用。
+    \item 通过先放气、再重新抽气的操作，熟悉真空腔体的开启、检查、密封和真空制备过程，理解阀门顺序与泵组保护的重要性。
+    \item 掌握高真空环境下热蒸发镀膜的基本方法，理解蒸发源加热、基底沉积、快门控制、冷却和污染控制之间的关系。
+    \item 使用石英晶体膜厚仪记录 Au 蒸发过程中的沉积速率和膜厚，结合照片读数分析实际沉积速率、最终等效膜厚及主要误差来源。
+\end{enumerate}
+
+\section{实验仪器与用具}
+
+\begin{itemize}
+    \item 真空热蒸发镀膜装置：提供可密封的真空腔体、样品台、蒸发源、快门和冷却结构，是真空制备与镀膜操作的主体平台。
+    \item 机械泵与涡轮分子泵泵组：机械泵用于前级抽气并为分子泵提供前级真空，涡轮分子泵在较低压强下继续抽气以获得高真空。
+    \item Edwards 真空泵控制器与真空测量单元：显示系统真空度和泵运行状态，本次实验记录到的最终真空约为 $5.5\times10^{-6}\,\mathrm{mbar}$。
+    \item 真空阀门、放气阀、法兰、密封圈和观察窗：控制腔体与泵组、空气及外部器件之间的通断，并保证腔体密封。
+    \item 热蒸发源及加热电源：通过电阻丝加热坩埚或蒸发舟中的 Au 材料，使其在高真空下产生蒸气并沉积到基底上。
+    \item INFICON SQM-160 石英晶体膜厚仪：由晶体频率变化反推沉积速率和等效膜厚，显示单位分别为 $\Ang/\mathrm{s}$ 和 $\mathrm{k}\Ang$。
+    \item 玻片、Au 蒸发材料、镊子和清洁用品：玻片作为沉积基底，Au 作为待蒸发材料；取放基底时应避免触摸镀膜区域和密封面。
+\end{itemize}
+
+\section{实验原理}
+
+\subsection{真空、压强与平均自由程}
+
+低于一个标准大气压的气体环境称为真空。若把真空腔中的气体近似看作理想气体，则
+\begin{equation}
+    pV = N k_B T,
+    \label{eq:ideal_gas}
+\end{equation}
+其中 $p$ 为压强，$V$ 为体积，$N$ 为腔体内气体分子数，$k_B$ 为玻尔兹曼常数，$T$ 为热力学温度。也可写成
+\begin{equation}
+    p = n k_B T,
+    \label{eq:number_density}
+\end{equation}
+其中 $n=N/V$ 为单位体积内的分子数密度。因此，在温度基本不变时，抽气的本质是减少腔体内气体分子数，使压强下降。
+
+常用真空单位之间有如下近似关系：
+\begin{equation}
+    1\,\mathrm{atm}=1.01\times10^5\,\mathrm{Pa}
+    =1.01\times10^3\,\mathrm{mbar}=760\,\mathrm{Torr}.
+\end{equation}
+本实验中记录到的真空度为 $5.5\times10^{-6}\,\mathrm{mbar}$，即
+\begin{equation}
+    p = 5.5\times10^{-4}\,\mathrm{Pa}
+    \approx 4.1\times10^{-6}\,\mathrm{Torr}.
+\end{equation}
+该压强处于高真空范围，腔体内分子数密度约为
+\begin{equation}
+    n=\frac{p}{k_B T}
+    \approx \frac{5.5\times10^{-4}}{1.38\times10^{-23}\times300}
+    \approx 1.3\times10^{17}\,\mathrm{m^{-3}},
+\end{equation}
+比常压下低约 $10^8$ 倍。
+
+平均自由程反映气体分子两次碰撞之间的平均距离。对分子有效直径为 $d$ 的气体，
+\begin{equation}
+    \lambda=\frac{k_B T}{\sqrt{2}\pi d^2 p}.
+    \label{eq:mean_free_path}
+\end{equation}
+取空气分子有效直径 $d\approx0.37\,\mathrm{nm}$、$T\approx300\,\mathrm{K}$，在 $5.5\times10^{-6}\,\mathrm{mbar}$ 下可估算出 $\lambda\approx 12\,\mathrm{m}$。该长度远大于实验装置中蒸发源到玻片的厘米量级距离，因此 Au 原子从蒸发源飞向基底时与残余气体碰撞的概率很小，有利于形成较洁净的沉积膜。
+
+\subsection{真空获得与维持}
+
+实际真空系统通常由真空腔、真空泵、阀门、法兰、密封件、真空规和实验功能部件组成。抽气过程一般分级进行：先用机械泵或干泵把腔体从大气压抽到前级真空，随后启动涡轮分子泵等高真空泵继续降低压强。涡轮分子泵依靠高速旋转叶片把气体分子逐级输运到出口，再由前级泵排走，因此必须在足够低的入口压强和稳定前级压强下运行。
+
+抽真空时，阀门顺序十分关键。若腔体仍处于大气压而直接打开高真空阀，分子泵会受到过大气体负载；若停泵或放气顺序错误，也可能引起返油、粉尘进入或密封件受损。高真空的极限还受漏气、材料放气、腔壁吸附水和蒸发源加热除气影响，所以实际制备真空不仅是泵的抽速问题，也包含洁净、密封、烘烤和冷却等工程控制。
+
+\subsection{真空测量与残余气体分析}
+
+不同真空范围需要使用不同的真空规。热阻真空计和热电偶真空计利用气体热传导随压强变化的性质，适合粗真空到中真空范围；热阴极或冷阴极电离规通过测量残余气体被电离后形成的离子流，适合高真空和超高真空范围。离子流与气体分子密度有关，因此可由电流信号反推出压强。
+
+若需要判断系统是否漏气，可使用四极杆质谱仪进行残余气体分析。气体分子被电离后进入四极杆质量过滤器，只有特定质荷比 $m/e$ 的离子能稳定通过并被探测。空气漏入时，常见谱峰包括 $\mathrm{N_2^+}$ 的 $m/e=28$、$\mathrm{O_2^+}$ 的 $m/e=32$、$\mathrm{H_2O^+}$ 的 $m/e=18$、$\mathrm{Ar^+}$ 的 $m/e=40$ 等。实际检漏常向疑似漏点喷 He，并观察 $m/e=4$ 信号是否突然增强。
+
+\subsection{真空热蒸发与石英晶体膜厚测量}
+
+真空热蒸发是在高真空环境中加热材料，使其蒸气沿近似直线飞行并沉积到基底上的薄膜制备方法。高真空一方面增加蒸发原子的平均自由程，另一方面降低氧化、水汽吸附和气相碰撞造成的污染。本实验中实际蒸发材料为 Au，基底为玻片。
+
+蒸发速率对温度极为敏感。材料的平衡蒸气压随温度呈近似指数变化，可用克劳修斯--克拉佩龙关系作定性描述：
+\begin{equation}
+    \ln p_{\mathrm{vap}} = -\frac{\Delta H_{\mathrm{vap}}}{R}\frac{1}{T}+C,
+    \label{eq:clausius}
+\end{equation}
+其中 $\Delta H_{\mathrm{vap}}$ 为汽化焓，$R$ 为气体常数。因此加热功率的微小变化、坩埚热惯性和材料表面状态都会显著影响沉积速率。
+
+本实验采用石英晶体膜厚仪原位测量沉积速率。石英晶片具有稳定的压电振荡频率，当晶片表面沉积材料后，单位面积质量增加会使共振频率下降。薄膜质量较小且刚性附着时可用 Sauerbrey 关系近似：
+\begin{equation}
+    \Delta f = -C_f\frac{\Delta m}{A},
+    \label{eq:sauerbrey}
+\end{equation}
+其中 $\Delta f$ 为频率变化，$\Delta m/A$ 为单位面积质量增加量，$C_f$ 为与石英晶体参数有关的常数。膜厚仪再根据材料密度、几何因子和晶体位置换算为
+\begin{equation}
+    h=\frac{1}{\rho_{\mathrm{Au}}}\frac{\Delta m}{A},
+    \qquad
+    r=\frac{\mathrm dh}{\mathrm dt}.
+\end{equation}
+需要注意的是，晶体频率不仅受质量负载影响，也受温度、热应力、沉积物形貌和晶体夹持状态影响。因此蒸发源升温时即使真实通量增大，膜厚仪显示速率也可能因为晶体温度漂移而出现短时异常。
+
+\section{实验内容}
+
+\subsection{真空腔体放气与结构观察}
+
+\begin{enumerate}
+    \item 在教师指导下确认高真空泵组处于安全状态，关闭与泵组直接连通的关键阀门，避免大气突然冲击分子泵。
+    \item 缓慢打开真空腔放气阀，使空气逐渐进入腔体。放气应缓慢进行，避免气流携带灰尘冲击腔内样品台、蒸发源和石英晶体探头。
+    \item 放气过程中用手指指腹在腔门附近轻轻反复试探，判断腔体是否仍因内外压差而被吸住；确认没有明显压差后，再打开腔体，观察不锈钢真空室、样品架、玻片放置位置、Au 蒸发源、快门、石英晶体探头、观察窗、法兰密封面、真空电极引出端和冷却管路。
+    \item 检查密封面是否洁净，避免手直接触碰密封圈和刀口位置。重新合上腔体并确认放气阀关闭，为后续抽真空做准备。
+\end{enumerate}
+
+\subsection{真空制备}
+
+\begin{enumerate}
+    \item 关闭放气阀和腔体门，确认样品、蒸发材料和探头已固定，腔体密封良好。
+    \item 启动前级泵，对腔体和泵路进行初步抽气。当前级压强达到分子泵允许范围后，启动涡轮分子泵。
+    \item 按操作要求逐步打开相应真空阀，使腔体与高真空泵连通。抽气过程中持续观察真空控制器和泵运行状态。
+    \item 等待腔体内水汽、空气和材料表面吸附气体被抽走。若压强下降明显变慢，说明系统进入由放气、漏率和泵抽速共同决定的高真空阶段。
+    \item 本次实验记录到 Edwards 控制器显示真空度约为 $5.5\times10^{-6}\,\mathrm{mbar}$，如图~\ref{fig:vacuum} 所示，满足后续热蒸发演示的高真空条件。
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.55\textwidth]{fig1.jpg}
+    \caption{真空制备后真空控制器读数约为 $5.5\times10^{-6}\,\mathrm{mbar}$。}
+    \label{fig:vacuum}
+\end{figure}
+
+\subsection{Au 真空热蒸发镀膜}
+
+\begin{enumerate}
+    \item 准备玻片基底并放置在样品位置，保证待镀膜表面朝向蒸发源。将 Au 蒸发材料置于蒸发源坩埚或蒸发舟中，确认快门处于关闭状态。
+    \item 合上真空腔，按前述流程重新抽气至高真空。高真空未达到前不进行正式蒸发，以减少 Au 原子在飞行过程中的碰撞和污染。
+    \item 打开蒸发源及石英晶体探头相关冷却水路，启动 INFICON SQM-160 膜厚仪，选择 Au 材料参数，对膜厚读数清零，并确认显示单位为沉积速率 $\Ang/\mathrm{s}$ 与膜厚 $\mathrm{k}\Ang$。
+    \item 在快门关闭条件下缓慢提高加热功率，使蒸发源、坩埚、Au 材料和周围支架先进行温和除气。此时应重点观察真空度变化，若压强明显升高，应暂停升温或等待压强恢复。
+    \item 继续缓慢升温至膜厚仪出现可分辨的沉积速率。由于蒸发速率对温度很敏感，升温不宜过快；先将石英晶体探针置于后续玻片所在的蒸发几何位置，记录 $0.08\sim0.10\,\Ang/\mathrm{s}$ 附近的读数并取平均沉积速率。
+    \item 探针标定完成后，迅速将玻片推入与探针相同的沉积位置，打开快门开始正式镀膜。图~\ref{fig:evaporation_readings} 展示了探针标定阶段的三个沉积速率、膜厚和计时读数。
+    \item 玻片热蒸发镀膜持续约 $7\,\mathrm{min}$。结束后关闭快门，逐步降低加热功率。待蒸发源冷却、真空度恢复后，打开真空放气阀缓慢放气，并用手指指腹反复轻触试探腔体是否已无明显压差，再开腔取出镀有 Au 薄膜的玻片。
+\end{enumerate}
+
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.31\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig2.jpg}
+        \caption{蒸发初期}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.31\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig3.jpg}
+        \caption{温和蒸发阶段}
+    \end{subfigure}
+    \hfill
+    \begin{subfigure}[b]{0.31\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{fig4.jpg}
+        \caption{蒸发后期}
+    \end{subfigure}
+    \caption{Au 热蒸发过程中 SQM-160 膜厚仪及加热控制器读数。}
+    \label{fig:evaporation_readings}
+\end{figure}
+
+\section{实验数据处理}
+
+\subsection{照片读数整理}
+
+本实验没有额外导出的连续数据文件，因此以现场照片中的仪器读数作为定量记录。膜厚仪显示的膜厚单位为 $\mathrm{k}\Ang$，其中 $1\,\mathrm{k}\Ang=1000\,\Ang=100\,\mathrm{nm}$。
+
+\begin{table}[H]
+    \centering
+    \caption{真空制备与 Au 热蒸发过程的主要读数}
+    \label{tab:readings}
+    \begin{tabular}{lllll}
+        \toprule
+        阶段 & 仪器读数 & 换算结果 & 时间读数 & 物理含义 \\
+        \midrule
+        真空制备终点 & $5.5\times10^{-6}\,\mathrm{mbar}$ & $5.5\times10^{-4}\,\mathrm{Pa}$ & -- & 高真空条件 \\
+        探针标定初期 & $0.08\,\Ang/\mathrm{s}$，$0.0015\,\mathrm{k}\Ang$ & $0.15\,\mathrm{nm}$ & $0{:}22$ & 已开始低速沉积 \\
+        探针温和蒸发 & $0.10\,\Ang/\mathrm{s}$，$0.0033\,\mathrm{k}\Ang$ & $0.33\,\mathrm{nm}$ & $0{:}36$ & 速率达到本次较高值 \\
+        探针标定后期 & $0.08\,\Ang/\mathrm{s}$，$0.0070\,\mathrm{k}\Ang$ & $0.70\,\mathrm{nm}$ & $1{:}18$ & 标定阶段累积膜厚 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+由探针标定阶段的累积膜厚和计时读数估算，本次 Au 的平均沉积速率为
+\begin{equation}
+    \bar r=\frac{7.0\,\Ang}{78\,\mathrm{s}}
+    \approx 0.090\,\Ang/\mathrm{s}.
+\end{equation}
+这与照片中瞬时速率 $0.08\sim0.10\,\Ang/\mathrm{s}$ 以及三次瞬时读数均值 $0.087\,\Ang/\mathrm{s}$ 基本一致，说明探针测得的 Au 通量虽有波动，但总体维持在同一数量级。蒸发初期由 $1.5\,\Ang/22\,\mathrm{s}\approx0.068\,\Ang/\mathrm{s}$ 得到的平均值略低，说明升温、除气和快门附近的过渡过程会拉低早期平均速率。正式镀膜时玻片被迅速推到与探针相同的位置，因此后续膜厚估算采用 $\bar r\approx0.090\,\Ang/\mathrm{s}$。
+
+\subsection{真空条件对沉积过程的影响}
+
+将真空读数 $5.5\times10^{-6}\,\mathrm{mbar}$ 换算为 $4.1\times10^{-6}\,\mathrm{Torr}$，属于高真空。由式~\eqref{eq:mean_free_path} 估计平均自由程约为 $12\,\mathrm{m}$，显著大于蒸发源到玻片的距离。因此 Au 原子在到达玻片前基本处于分子流输运状态，沉积方向性主要由蒸发源几何、快门开口和基底位置决定，而不是由气相碰撞扩散决定。
+
+高真空还降低了氧气和水汽对薄膜的影响。Au 本身化学性质稳定，不易氧化，但玻片表面的水、碳氢污染物和腔体放气仍会影响成核形貌。蒸发源升温时，热辐射会使附近腔壁、坩埚和材料表面放气增强，真空度可能短时变差；因此实验中先温和升温除气、再正式打开快门，是为了减少初始污染沉积到玻片上的概率。
+
+\subsection{最终 Au 膜的等效厚度与形貌判断}
+
+膜厚仪照片中的 $0.0070\,\mathrm{k}\Ang$ 是探针标定阶段的累积厚度，不直接等同于玻片最终膜厚。正式镀膜时玻片处于相同沉积位置并持续约 $7\,\mathrm{min}$，即 $t=420\,\mathrm{s}$。因此玻片上的 Au 等效膜厚估算为
+\begin{equation}
+    h_{\mathrm{glass}}=\bar r t
+    \approx 0.090\,\Ang/\mathrm{s}\times420\,\mathrm{s}
+    =37.8\,\Ang
+    =3.78\,\mathrm{nm}.
+\end{equation}
+取 Au 密度 $\rho_{\mathrm{Au}}=19.3\,\mathrm{g/cm^3}=1.93\times10^4\,\mathrm{kg/m^3}$，单位面积沉积质量约为
+\begin{equation}
+    \frac{m}{A}=\rho_{\mathrm{Au}}h_{\mathrm{glass}}
+    =1.93\times10^4\times3.78\times10^{-9}
+    \approx 7.30\times10^{-5}\,\mathrm{kg/m^2}.
+\end{equation}
+换算为每平方厘米约 $7.30\,\mathrm{\mu g}$ 的 Au。若按 Au 摩尔质量 $M=197\,\mathrm{g/mol}$ 估算，单位面积原子数为
+\begin{equation}
+    \frac{N}{A}
+    =\frac{m/A}{M}N_A
+    \approx 2.2\times10^{20}\,\mathrm{m^{-2}}.
+\end{equation}
+该数值相当于十几个原子层量级的名义覆盖量。
+
+需要强调的是，膜厚仪给出的是按均匀连续膜假设换算的等效厚度。Au 在玻璃表面润湿性有限，数纳米沉积时仍可能先经历岛状成核、长大和并合过程，因此 $3.8\,\mathrm{nm}$ 的名义厚度比标定阶段的 $0.70\,\mathrm{nm}$ 更接近连续薄膜，但仍不能保证宏观上完全均匀、导电性完全稳定。
+
+\subsection{误差来源与速率波动分析}
+
+\begin{enumerate}
+    \item \textbf{温度漂移：} 蒸发源升温会通过热辐射加热石英晶体探头。晶体频率除质量负载外还受温度影响，若温度漂移未被完全冷却和补偿，显示速率可能偏离真实沉积速率。
+    \item \textbf{几何因子：} 本实验先用石英晶体探针在沉积位置标定平均速率，再快速将玻片推到相同位置，但两者仍可能存在毫米量级位置差、推入延迟和快门时间差。膜厚仪中的 tooling factor 若未精确标定，玻片实际膜厚会与估算膜厚存在系统差异。
+    \item \textbf{蒸发源热惯性：} 加热电流、坩埚温度和 Au 表面温度之间存在时间延迟，导致瞬时速率在 $0.08\sim0.10\,\Ang/\mathrm{s}$ 之间波动。
+    \item \textbf{材料表面状态：} Au 颗粒或丝材在开始蒸发前可能有吸附物或接触形态变化，除气和熔融过程会改变实际蒸发表面积。
+    \item \textbf{读数不确定性：} 本报告的数据来自照片读数，计时、速率和膜厚显示的最小分辨率有限，且不同照片不一定严格对应同一个采样瞬间。
+\end{enumerate}
+
+综合来看，本次实验达到高真空并实现了可观测的 Au 低速热蒸发。通过探针标定得到平均沉积速率后，玻片在相同位置镀膜约 $7\,\mathrm{min}$，估算得到数纳米量级 Au 膜。若要制备光学或电学性质更稳定的连续金膜，需要进一步提高目标厚度，并对基底清洁、粘附层和几何因子进行更严格控制。
+
+\section{思考题}
+
+\begin{enumerate}
+    \item \textbf{为什么真空制备要先使用前级泵，再启动涡轮分子泵？}
+
+    涡轮分子泵依靠高速叶片向气体分子传递定向动量，它适用于分子流或过渡流条件，不能直接承受大气压气体负载。若在腔体仍接近大气压时启动或打开分子泵，高密度气体会造成叶片阻力和热负载急剧增大，甚至损坏泵体。机械泵或干泵先把系统抽到较低压强，同时为分子泵出口提供前级真空，之后分子泵才能高效、安全地把腔体抽到高真空。
+
+    \item \textbf{放气观察真空腔体时应注意什么？}
+
+    放气应缓慢进行，并在确认高真空泵与腔体隔离后再引入空气。过快放气会带入灰尘和水汽，也可能冲击石英晶体探头、样品架和蒸发源。实验中可用手指指腹在腔门附近轻轻反复试探，判断腔体是否仍被内外压差吸住；只有确认压差基本消失后才打开腔体。打开后应重点观察密封面、阀门、样品台、快门、蒸发源和电极引出端的位置关系，但不能用手触摸法兰刀口、密封圈和待镀膜区域。重新合腔前要确认腔体内无遗留物，密封面洁净，放气阀关闭。
+
+    \item \textbf{怎样用残余气体质谱判断真空系统是否漏气？}
+
+    若系统有空气漏入，质谱中通常会同时出现 $\mathrm{N_2}$、$\mathrm{O_2}$、$\mathrm{H_2O}$、$\mathrm{Ar}$ 和 $\mathrm{CO/CO_2}$ 等空气相关峰，其中 $m/e=28$ 的氮气峰和 $m/e=32$ 的氧气峰会表现出接近空气组成的关联变化。若仅有水峰较强而氧气峰弱，常说明主要问题是腔壁吸附水放气，并不一定是外界空气漏入。实际检漏时可向疑似法兰、阀门或焊缝附近喷 He，若质谱中 $m/e=4$ 信号迅速升高并随喷射位置变化，就可定位漏点。
+
+    \item \textbf{为什么蒸发源升温时，膜厚仪显示的沉积速率可能反而减小？}
+
+    膜厚仪测量的是石英晶体共振频率变化，而频率不仅由沉积质量决定，还受晶体温度、热应力、夹持状态、晶片表面污染和电子线路稳定性影响。蒸发源升温时，热辐射可能使晶体温度升高，引入与质量负载相反或叠加的频率漂移；同时材料除气、熔融和蒸发表面积变化也会造成真实通量短时不稳定。因此“升温但显示速率下降”不一定表示蒸发物减少，也可能是温度漂移和源状态变化共同造成的表观异常。
+
+    \item \textbf{石英晶体探头为什么需要冷却水？}
+
+    冷却水的主要作用是稳定石英晶体温度，减小热辐射引起的频率漂移，从而提高膜厚和速率读数的可信度。冷却还可以降低晶片和探头支架的热应力，减少沉积层脱附、探头污染和晶体寿命下降。对低速蒸发实验而言，真实质量负载导致的频率变化较小，温度漂移如果不受控制，就可能与沉积信号同量级甚至更大。
+
+    \item \textbf{材料沉积速率受温度影响大吗？能否得到稳定速率？}
+
+    沉积速率受温度影响很大，因为材料蒸气压随温度近似指数变化。对于 Au 这类金属，坩埚温度的小幅变化就会造成蒸发通量的明显改变。实际实验中可以通过缓慢升温、等待热平衡、保持加热功率稳定和使用快门避开初期除气阶段，获得一段时间内相对稳定的速率。本次照片读数显示速率主要在 $0.08\sim0.10\,\Ang/\mathrm{s}$ 之间波动，说明已经达到可用于演示镀膜的准稳定状态，但尚不是高精度工艺控制意义上的恒定速率。
+
+    \item \textbf{Au 的熔点与真空蒸发温度有什么关系？}
+
+    熔点表示固体与液体平衡的温度，而蒸发取决于材料在该温度下的蒸气压。常压下 Au 的沸点远高于熔点，但在真空中，只要蒸气压足以提供可测沉积通量，即使低于常压沸点也能进行蒸发。实际热蒸发 Au 时，材料通常处在接近或高于熔点的高温区，蒸气压随温度快速上升；真空环境降低了气相碰撞和氧化污染，使蒸发出的 Au 原子能够有效到达玻片形成薄膜。
+\end{enumerate}
+
+\end{document}
